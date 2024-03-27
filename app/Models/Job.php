@@ -15,6 +15,6 @@ protected $fillable = ['title','salary'];
 
 public function employer()
 {
-    return $this->belongsto(Employer::class);
+    return $this->belongsTo(Employer::class);
 }
 }
