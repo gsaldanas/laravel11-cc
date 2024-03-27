@@ -10,7 +10,6 @@
 </head>
 
 <body class="h-full">
-
 <div class="min-h-full">
     <nav class="bg-gray-800">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -23,7 +22,7 @@
                         <div class="ml-10 flex items-baseline space-x-4">
                             <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
                             <x-nav-link href="/jobs" :active="request()->is('jobs')">Jobs</x-nav-link>
-                            <x-nav-link href="/contact" :active="request()->is('contact')" >Contact</x-nav-link>
+                            <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
                         </div>
                     </div>
                 </div>
@@ -82,7 +81,7 @@
                     </div>
                     <div class="ml-3">
                         <div class="text-base font-medium leading-none text-white">Lary Robot</div>
-                        <div class="text-sm font-medium leading-none text-gray-400">joe@laracasts.com</div>
+                        <div class="text-sm font-medium leading-none text-gray-400">jeffrey@laracasts.com</div>
                     </div>
                     <button type="button" class="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                         <span class="absolute -inset-1.5"></span>
