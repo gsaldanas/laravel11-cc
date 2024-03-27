@@ -12,4 +12,9 @@ class Job extends Model {
 protected $table = 'job_listings';
 //are allowed for mass assign
 protected $fillable = ['title','salary'];
+
+public function employer()
+{
+    return $this->belongsto(Employer::class);
+}
 }
